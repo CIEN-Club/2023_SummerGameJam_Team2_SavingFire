@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1024 height=576></canvas>
+      <canvas id="unity-canvas" width=1024 height=600></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/빌드 파일.loader.js";
+      var loaderUrl = buildUrl + "/2023CienGameJam2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/빌드 파일.data",
-        frameworkUrl: buildUrl + "/빌드 파일.framework.js",
-        codeUrl: buildUrl + "/빌드 파일.wasm",
+        dataUrl: buildUrl + "/2023CienGameJam2.data.br",
+        frameworkUrl: buildUrl + "/2023CienGameJam2.framework.js.br",
+        codeUrl: buildUrl + "/2023CienGameJam2.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "CIEN",
         productName: "Protect FIre",
@@ -94,7 +94,7 @@
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
         canvas.style.width = "1024px";
-        canvas.style.height = "576px";
+        canvas.style.height = "600px";
       }
 
       loadingBar.style.display = "block";
